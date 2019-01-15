@@ -1,0 +1,84 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 2300 1050 1200 850 
+U 5C3DE611
+F0 "Controller" 50
+F1 "Controller.sch" 50
+F2 "VCC" I R 3500 1150 50 
+F3 "V_Sense" I L 2300 1150 50 
+F4 "GND" I R 3500 1250 50 
+F5 "3V3" I R 3500 1350 50 
+F6 "Pin11" I L 2300 1250 50 
+F7 "Pin25" I L 2300 1450 50 
+F8 "Pin23" I L 2300 1350 50 
+$EndSheet
+$Sheet
+S 2300 2150 1200 800 
+U 5C45AA0D
+F0 "DC-DC_converter" 50
+F1 "DC-DC_converter.sch" 50
+F2 "V_sense" I L 2300 2250 50 
+F3 "Pin11" I L 2300 2350 50 
+F4 "Pin23" I L 2300 2450 50 
+F5 "Pin25" I L 2300 2550 50 
+F6 "VCC" I R 3500 2250 50 
+F7 "GND" I R 3500 2350 50 
+F8 "3V3" I R 3500 2450 50 
+$EndSheet
+Wire Wire Line
+	3500 2250 3600 2250
+Wire Wire Line
+	3600 2250 3600 1150
+Wire Wire Line
+	3600 1150 3500 1150
+Wire Wire Line
+	3500 1250 3650 1250
+Wire Wire Line
+	3650 1250 3650 2350
+Wire Wire Line
+	3650 2350 3500 2350
+Wire Wire Line
+	3500 2450 3700 2450
+Wire Wire Line
+	3700 2450 3700 1350
+Wire Wire Line
+	3700 1350 3500 1350
+Wire Wire Line
+	2300 2250 2200 2250
+Wire Wire Line
+	2200 2250 2200 1150
+Wire Wire Line
+	2200 1150 2300 1150
+Wire Wire Line
+	2300 1250 2150 1250
+Wire Wire Line
+	2150 1250 2150 2350
+Wire Wire Line
+	2150 2350 2300 2350
+Wire Wire Line
+	2300 1350 2100 1350
+Wire Wire Line
+	2100 1350 2100 2450
+Wire Wire Line
+	2100 2450 2300 2450
+Wire Wire Line
+	2300 1450 2050 1450
+Wire Wire Line
+	2050 1450 2050 2550
+Wire Wire Line
+	2050 2550 2300 2550
+$EndSCHEMATC
